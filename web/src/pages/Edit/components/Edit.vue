@@ -629,6 +629,7 @@ export default {
 
     // 网页版试用提示
     webTip() {
+      return　// 加这一行，函数直接退出，后面代码全部不跑
       const storageKey = 'webUseTip'
       const data = localStorage.getItem(storageKey)
       if (data) {
